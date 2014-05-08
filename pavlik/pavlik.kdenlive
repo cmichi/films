@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" version="0.8.8" root="/home/michi" LC_NUMERIC="en_US.UTF-8">
+ <profile width="1920" display_aspect_den="9" colorspace="709" frame_rate_den="1" description="HD 1080p 25 fps" height="1080" display_aspect_num="16" frame_rate_num="25" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
+ <producer in="0" out="159682" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">159683</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="156166" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <playlist id="playlist2"/>
+ <producer in="0" out="2405" id="4_3">
+  <property name="mlt_type">producer</property>
+  <property name="length">2406</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9059.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45673553</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 15:57:03</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 15:57:03</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 15:57:03</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="124" id="3">
+  <property name="mlt_type">producer</property>
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" height="1080" LC_NUMERIC="en_US.UTF-8">
+ &lt;item z-index="0" type="QGraphicsPixmapItem">
+  &lt;position x="83.33333333333331" y="704.1666666666667">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content url="/media/michi/data/projects/pavlik/title/cc-zero.png"/>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+ </producer>
+ <producer in="0" out="1554" id="11_3">
+  <property name="mlt_type">producer</property>
+  <property name="length">1555</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9063.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">42104660</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:27:59</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:27:59</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:27:59</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="400" id="12_3">
+  <property name="mlt_type">producer</property>
+  <property name="length">401</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9064.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">43356324</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:29:53</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:29:53</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:29:53</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="61" id="13_3">
+  <property name="mlt_type">producer</property>
+  <property name="length">62</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9065.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">41257083</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:30:36</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:30:36</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:30:36</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="111" id="14_3">
+  <property name="mlt_type">producer</property>
+  <property name="length">112</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9066.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">35400141</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:30:46</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:30:46</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:30:46</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="177" id="15_3">
+  <property name="mlt_type">producer</property>
+  <property name="length">178</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9067.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">42738543</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:33:37</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:33:37</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:33:37</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist3">
+  <blank length="1292"/>
+  <entry in="275" out="2183" producer="4_3"/>
+  <blank length="159"/>
+  <entry in="0" out="124" producer="3"/>
+  <blank length="106935"/>
+  <entry in="606" out="1235" producer="11_3"/>
+  <entry in="0" out="400" producer="12_3"/>
+  <entry in="0" out="61" producer="13_3"/>
+  <entry in="0" out="111" producer="14_3"/>
+  <entry in="0" out="177" producer="15_3"/>
+ </playlist>
+ <producer in="0" out="17824" id="1_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">17825</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9054.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45433276</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 14:58:48</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 14:58:48</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 14:58:48</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="11812" id="5_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">11813</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9055.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45264728</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 15:10:43</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 15:10:43</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 15:10:43</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="17591" id="6_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">17592</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9056.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">44706405</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 15:20:11</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 15:20:11</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 15:20:11</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="18335" id="7_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">18336</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9057.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45150508</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 15:35:45</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 15:35:45</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 15:35:45</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="13490" id="8_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">13491</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9058.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45323210</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 15:48:02</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 15:48:02</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 15:48:02</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="18311" id="9_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">18312</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9060.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45218565</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 15:58:41</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 15:58:41</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 15:58:41</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="15839" id="10_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">15840</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9061.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45167051</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:13:31</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:13:31</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:13:31</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+ </producer>
+ <producer in="0" out="8792" id="18_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">8793</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9129.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">42564879</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-20 18:01:46</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-20 18:01:46</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-20 18:01:46</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="14584" id="21_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">14585</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9130.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">43857215</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-20 18:07:50</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-20 18:07:50</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-20 18:07:50</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="12235" id="20_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">12236</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9131.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">44662395</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-20 18:17:37</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-20 18:17:37</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-20 18:17:37</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="9801" id="24_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">9802</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9134.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">46088195</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-20 18:45:05</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-20 18:45:05</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-20 18:45:05</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="1774" id="26_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">1775</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9136.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">46141293</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-20 18:53:31</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-20 18:53:31</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-20 18:53:31</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist4">
+  <blank length="125"/>
+  <entry in="214" out="2413" producer="1_2"/>
+  <entry in="2414" out="3868" producer="1_2"/>
+  <blank length="149"/>
+  <entry in="4018" out="5744" producer="1_2"/>
+  <entry in="5745" out="17678" producer="1_2"/>
+  <blank length="910"/>
+  <entry in="91" out="2561" producer="5_2">
+   <filter id="frei0r.brightness">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.brightness</property>
+    <property name="kdenlive_id">frei0r.brightness</property>
+    <property name="tag">frei0r.brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="Brightness">0.536</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="frei0r.contrast0r">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="tag">frei0r.contrast0r</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="Contrast">91=0.55</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <entry in="2562" out="9291" producer="5_2">
+   <filter id="filter0">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.brightness</property>
+    <property name="kdenlive_id">frei0r.brightness</property>
+    <property name="tag">frei0r.brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="Brightness">0.536</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="filter1">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="tag">frei0r.contrast0r</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="Contrast">91=0.55</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <entry in="9292" out="10016" producer="5_2">
+   <filter id="filter2">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.brightness</property>
+    <property name="kdenlive_id">frei0r.brightness</property>
+    <property name="tag">frei0r.brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="Brightness">0.536</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="filter3">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="tag">frei0r.contrast0r</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="Contrast">91=0.55</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <entry in="10017" out="11683" producer="5_2">
+   <filter id="filter4">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.brightness</property>
+    <property name="kdenlive_id">frei0r.brightness</property>
+    <property name="tag">frei0r.brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="Brightness">0.536</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="filter5">
+    <property name="track">0</property>
+    <property name="version">0.200000</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.contrast0r</property>
+    <property name="kdenlive_id">frei0r.contrast0r</property>
+    <property name="tag">frei0r.contrast0r</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="Contrast">91=0.55</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <blank length="7571"/>
+  <entry in="7474" out="9138" producer="6_2"/>
+  <blank length="565"/>
+  <entry in="9704" out="12320" producer="6_2"/>
+  <entry in="12321" out="14897" producer="6_2"/>
+  <blank length="264"/>
+  <entry in="15162" out="17591" producer="6_2"/>
+  <blank length="658"/>
+  <entry in="585" out="16845" producer="7_2"/>
+  <blank length="4210"/>
+  <entry in="4133" out="6351" producer="8_2"/>
+  <entry in="6352" out="8306" producer="8_2"/>
+  <entry in="8307" out="8740" producer="8_2"/>
+  <blank length="5384"/>
+  <entry in="4807" out="7090" producer="9_2"/>
+  <entry in="7091" out="18311" producer="9_2"/>
+  <blank length="1648"/>
+  <entry in="426" out="11547" producer="10_2"/>
+  <blank length="6955"/>
+  <entry in="0" out="4729" producer="18_2"/>
+  <entry in="4730" out="5062" producer="18_2"/>
+  <entry in="5063" out="7098" producer="18_2"/>
+  <blank length="324"/>
+  <entry in="0" out="5403" producer="21_2"/>
+  <entry in="5404" out="14584" producer="21_2"/>
+  <blank length="407"/>
+  <entry in="111" out="2394" producer="20_2"/>
+  <entry in="7065" out="12107" producer="20_2"/>
+  <blank length="630"/>
+  <entry in="324" out="9801" producer="24_2"/>
+  <blank length="2409"/>
+  <entry in="0" out="1774" producer="26_2"/>
+ </playlist>
+ <producer in="0" out="15839" id="10_1">
+  <property name="mlt_type">producer</property>
+  <property name="length">15840</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/DCIM/MVI_9061.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">45167051</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-16 16:13:31</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-16 16:13:31</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-16 16:13:31</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="124" id="2">
+  <property name="mlt_type">producer</property>
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" height="1080" LC_NUMERIC="en_US.UTF-8">
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="884.8506401137984" y="317.4537695590328">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="240" font-italic="0" font-underline="0" font-weight="50" font="Linux Libertine Capitals O">Elf 
+    Pavlik&lt;/content>
+ &lt;/item>
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="186.8421052631579" y="216.8421052631579">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="100" font-italic="1" font-underline="0" font-weight="63" font="Linux Libertine O">The fabulous tale of the&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+ </producer>
+ <playlist id="playlist5">
+  <entry in="0" out="49" producer="10_1"/>
+  <entry in="50" out="124" producer="2"/>
+  <blank length="105038"/>
+  <entry in="11548" out="14460" producer="10_1"/>
+  <entry in="14461" out="15839" producer="10_1"/>
+ </playlist>
+ <producer in="0" out="2693" id="25">
+  <property name="mlt_type">producer</property>
+  <property name="length">2694</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9135.MOV</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25.000000</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">50000.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0.000000</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">46555564</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-03-20 18:51:42</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">pcm_s16le</property>
+  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-03-20 18:51:42</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">537331968</property>
+  <property name="meta.attr.compatible_brands.markup">qt  CAEP</property>
+  <property name="meta.attr.creation_time.markup">2012-03-20 18:51:42</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1.000000</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist0">
+  <blank length="152323"/>
+  <entry in="813" out="2652" producer="25"/>
+ </playlist>
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="156166" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track hide="video" producer="playlist2"/>
+  <track hide="audio" producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <track producer="playlist0"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">1</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">1</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition4">
+   <property name="a_track">1</property>
+   <property name="b_track">6</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition out="124" id="transition5">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition in="3360" out="3484" id="transition6">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc profile="atsc_1080p_25" kdenliveversion="0.9.4" version="0.88" projectfolder="/media/michi/data/projects/kdenlive">
+  <customeffects/>
+  <documentproperties documentid="1399312567474" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="WebM" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/media/michi/data/projects/kdenlive/untitled.webm" rendertwopass="0" renderplay="0" position="154672" proxyminsize="1000" renderstartguide="-1" zoom="8" renderratio="0" rendercategory="WebM" zoneout="561" renderzone="1" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> &lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo width="1920" display_aspect_den="9" frame_rate_den="1" description="HD 1080p 25 fps" height="1080" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="1" sample_aspect_den="1"/>
+  <tracksinfo>
+   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 2" type="audio"/>
+   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 1" type="audio"/>
+   <trackinfo blind="0" mute="1" locked="0" trackname="Video 4"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 3"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 2"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 1"/>
+  </tracksinfo>
+  <folder opened="1" id="1" name="dialogue"/>
+  <kdenlive_producer meta.attr.creation_time.markup="2012-03-16 14:58:48" audio_max="63" meta.attr.creation_time="2012-03-16 14:58:48" id="1" pix_fmt="yuvj420p" default_video="0" meta.attr.compatible_brands.markup="qt  CAEP" meta.attr.1.stream.language.markup="eng" fps="25.000000" analysisdata="" meta.attr.0.stream.creation_time.markup="2012-03-16 14:58:48" name="MVI_9054.MOV" meta.attr.minor_version.markup="537331968" videocodecid="h264" meta.attr.major_brand.markup="qt  " meta.attr.minor_version="537331968" meta.attr.0.stream="eng" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9054.MOV" meta.attr.1.stream="2012-03-16 14:58:48" meta.attr.major_brand="qt  " meta.attr.1.stream.creation_time.markup="2012-03-16 14:58:48" default_audio="1" meta.attr.0.stream.language.markup="eng" audiocodec="PCM signed 16-bit little-endian" duration="17825" file_hash="29905b4dcbf64356a60c7d7f2b08db8c" aspect_ratio="1.000000" channels="2" frequency="48000" video_max="0" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="4186360949"/>
+  <kdenlive_producer duration="125" transparency="1" frame_size="1920x1080" in="0" analysisdata="" aspect_ratio="0.000000" out="124" xmldata="&lt;kdenlivetitle width=&quot;1920&quot; duration=&quot;125&quot; height=&quot;1080&quot; LC_NUMERIC=&quot;en_US.UTF-8&quot;>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;884.8506401137984&quot; y=&quot;317.4537695590328&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-pixel-size=&quot;240&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Linux Libertine Capitals O&quot;>Elf &#xa;    Pavlik&lt;/content>&#xa; &lt;/item>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;186.8421052631579&quot; y=&quot;216.8421052631579&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-pixel-size=&quot;100&quot; font-italic=&quot;1&quot; font-underline=&quot;0&quot; font-weight=&quot;63&quot; font=&quot;Linux Libertine O&quot;>The fabulous tale of the&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1920,1080&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1920,1080&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="2" name="Title clip"/>
+  <kdenlive_producer duration="125" transparency="1" frame_size="1920x1080" thumbnail="100" in="0" analysisdata="" aspect_ratio="0.000000" out="124" xmldata="&lt;kdenlivetitle width=&quot;1920&quot; duration=&quot;125&quot; height=&quot;1080&quot; LC_NUMERIC=&quot;en_US.UTF-8&quot;>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsPixmapItem&quot;>&#xa;  &lt;position x=&quot;83.33333333333331&quot; y=&quot;704.1666666666667&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content url=&quot;/media/michi/data/projects/pavlik/title/cc-zero.png&quot;/>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1920,1080&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1920,1080&quot;/>&#xa; &lt;background color=&quot;0,0,0,255&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="3" name="Title clip"/>
+  <kdenlive_producer video_max="0" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" groupname="dialogue" meta.attr.0.stream="eng" aspect_ratio="1.000000" type="3" duration="2406" fps="25.000000" analysisdata="" videocodecid="h264" meta.attr.minor_version="537331968" frame_size="1920x1080" frequency="48000" pix_fmt="yuvj420p" audiocodec="PCM signed 16-bit little-endian" meta.attr.major_brand="qt  " meta.attr.1.stream.creation_time.markup="2012-03-16 15:57:03" description="foo" meta.attr.1.stream.language.markup="eng" meta.attr.creation_time.markup="2012-03-16 15:57:03" default_video="0" meta.attr.1.stream="2012-03-16 15:57:03" meta.attr.compatible_brands="qt  CAEP" id="4" meta.attr.major_brand.markup="qt  " audio_max="44" groupid="1" file_size="567962361" meta.attr.0.stream.creation_time.markup="2012-03-16 15:57:03" meta.attr.compatible_brands.markup="qt  CAEP" meta.attr.minor_version.markup="537331968" colorspace="601" file_hash="4054a033a82730636c96b72eed74e843" default_audio="1" resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9059.MOV" meta.attr.0.stream.language.markup="eng" progressive="1" name="MVI_9059.MOV" meta.attr.creation_time="2012-03-16 15:57:03" channels="2"/>
+  <kdenlive_producer meta.attr.creation_time.markup="2012-03-16 15:10:43" audio_max="63" meta.attr.creation_time="2012-03-16 15:10:43" id="5" pix_fmt="yuvj420p" default_video="0" meta.attr.compatible_brands.markup="qt  CAEP" meta.attr.1.stream.language.markup="eng" fps="25.000000" analysisdata="" meta.attr.0.stream.creation_time.markup="2012-03-16 15:10:43" name="MVI_9055.MOV" meta.attr.minor_version.markup="537331968" videocodecid="h264" meta.attr.major_brand.markup="qt  " meta.attr.minor_version="537331968" meta.attr.0.stream="eng" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9055.MOV" meta.attr.1.stream="2012-03-16 15:10:43" meta.attr.major_brand="qt  " meta.attr.1.stream.creation_time.markup="2012-03-16 15:10:43" default_audio="1" meta.attr.0.stream.language.markup="eng" audiocodec="PCM signed 16-bit little-endian" duration="11813" file_hash="050e5b124d7af9cca4b0d98777ae7147" aspect_ratio="1.000000" channels="2" frequency="48000" video_max="0" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="2764434069"/>
+  <kdenlive_producer video_max="0" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" groupname="dialogue" meta.attr.0.stream="eng" aspect_ratio="1.000000" type="3" duration="17592" fps="25.000000" analysisdata="" videocodecid="h264" meta.attr.minor_version="537331968" frame_size="1920x1080" frequency="48000" pix_fmt="yuvj420p" audiocodec="PCM signed 16-bit little-endian" meta.attr.major_brand="qt  " meta.attr.1.stream.creation_time.markup="2012-03-16 15:20:11" meta.attr.1.stream.language.markup="eng" meta.attr.creation_time.markup="2012-03-16 15:20:11" default_video="0" meta.attr.1.stream="2012-03-16 15:20:11" meta.attr.compatible_brands="qt  CAEP" id="6" meta.attr.major_brand.markup="qt  " audio_max="52" groupid="1" file_size="4067703241" meta.attr.0.stream.creation_time.markup="2012-03-16 15:20:11" meta.attr.compatible_brands.markup="qt  CAEP" meta.attr.minor_version.markup="537331968" colorspace="601" file_hash="e7e5b4291be86e094857856a6f9dd5e7" default_audio="1" resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9056.MOV" meta.attr.0.stream.language.markup="eng" progressive="1" name="MVI_9056.MOV" meta.attr.creation_time="2012-03-16 15:20:11" channels="2"/>
+  <kdenlive_producer meta.attr.creation_time.markup="2012-03-16 15:35:45" audio_max="51" meta.attr.creation_time="2012-03-16 15:35:45" id="7" pix_fmt="yuvj420p" default_video="0" meta.attr.compatible_brands.markup="qt  CAEP" meta.attr.1.stream.language.markup="eng" fps="25.000000" analysisdata="" meta.attr.0.stream.creation_time.markup="2012-03-16 15:35:45" name="MVI_9057.MOV" meta.attr.minor_version.markup="537331968" videocodecid="h264" meta.attr.major_brand.markup="qt  " meta.attr.minor_version="537331968" meta.attr.0.stream="eng" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9057.MOV" meta.attr.1.stream="2012-03-16 15:35:45" meta.attr.major_brand="qt  " meta.attr.1.stream.creation_time.markup="2012-03-16 15:35:45" default_audio="1" meta.attr.0.stream.language.markup="eng" audiocodec="PCM signed 16-bit little-endian" duration="18336" file_hash="1c8c25e6b6f3a5f5b5fbe0b8e95f68cf" aspect_ratio="1.000000" channels="2" frequency="48000" video_max="0" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="4280449677"/>
+  <kdenlive_producer audio_max="55" meta.attr.creation_time="2012-03-16 15:48:02" id="8" meta.attr.0.stream.creation_time="2012-03-16 15:48:02" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9058.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9058.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="13491" groupid="1" file_hash="86ca0eefa642baec78984f84323905a5" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 15:48:02" progressive="1" meta.attr.compatible_brands="qt  CAEP" groupname="dialogue" type="3" frame_size="1920x1080" file_size="3161058017"/>
+  <kdenlive_producer audio_max="62" meta.attr.creation_time="2012-03-16 15:58:41" id="9" meta.attr.0.stream.creation_time="2012-03-16 15:58:41" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9060.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9060.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="18312" groupid="1" file_hash="918f0af10db0f52921044b03072a1609" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 15:58:41" progressive="1" meta.attr.compatible_brands="qt  CAEP" groupname="dialogue" type="3" frame_size="1920x1080" file_size="4281078241"/>
+  <kdenlive_producer audio_max="53" meta.attr.creation_time="2012-03-16 16:13:31" id="10" meta.attr.0.stream.creation_time="2012-03-16 16:13:31" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9061.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9061.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="15840" groupid="1" file_hash="6dc199f18f7cc4efc4c1f9e84d0463f6" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:13:31" progressive="1" meta.attr.compatible_brands="qt  CAEP" groupname="dialogue" type="3" frame_size="1920x1080" file_size="3699081053"/>
+  <kdenlive_producer audio_max="63" meta.attr.creation_time="2012-03-16 16:27:59" id="11" meta.attr.0.stream.creation_time="2012-03-16 16:27:59" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9063.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9063.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="1555" groupid="1" file_hash="15cd718a1e1c38dc0f9b410f39c60104" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:27:59" progressive="1" meta.attr.compatible_brands="qt  CAEP" groupname="dialogue" type="3" frame_size="1920x1080" file_size="339326925"/>
+  <kdenlive_producer audio_max="36" meta.attr.creation_time="2012-03-16 16:29:53" id="12" meta.attr.0.stream.creation_time="2012-03-16 16:29:53" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9064.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9064.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="401" groupid="1" file_hash="8aa41c114a1d6cb83dc067dfe5d05ad4" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:29:53" progressive="1" meta.attr.compatible_brands="qt  CAEP" groupname="dialogue" type="3" frame_size="1920x1080" file_size="90239953"/>
+  <kdenlive_producer audio_max="34" meta.attr.creation_time="2012-03-16 16:30:36" id="13" meta.attr.0.stream.creation_time="2012-03-16 16:30:36" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9065.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9065.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="62" file_hash="3f6231c8e16b3868733c8a45945cefcc" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:30:36" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="13267989"/>
+  <kdenlive_producer audio_max="47" meta.attr.creation_time="2012-03-16 16:30:46" id="14" meta.attr.0.stream.creation_time="2012-03-16 16:30:46" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9066.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9066.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="112" file_hash="94a52668a7cd0ffd5f29e68c5aff55e4" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:30:46" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="20871689"/>
+  <kdenlive_producer audio_max="29" meta.attr.creation_time="2012-03-16 16:33:37" id="15" meta.attr.0.stream.creation_time="2012-03-16 16:33:37" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9067.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9067.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="178" file_hash="46271999508f8651821c84872956a3a4" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:33:37" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="39407925"/>
+  <kdenlive_producer audio_max="43" meta.attr.creation_time="2012-03-16 16:33:47" id="16" meta.attr.0.stream.creation_time="2012-03-16 16:33:47" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9068.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/DCIM/MVI_9068.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="185" file_hash="7ca75477ecf96e81d619b4e69092a751" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-16 16:33:47" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="40730189"/>
+  <kdenlive_producer audio_max="56" meta.attr.creation_time="2012-03-20 18:01:46" id="18" meta.attr.0.stream.creation_time="2012-03-20 18:01:46" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9129.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9129.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="8793" file_hash="cd0c564c5360a2219b1f7d212e82fee5" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-20 18:01:46" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="1939006445"/>
+  <kdenlive_producer audio_max="51" meta.attr.creation_time="2012-03-20 18:17:37" id="20" meta.attr.0.stream.creation_time="2012-03-20 18:17:37" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9131.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9131.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="12236" file_hash="c6a785c41600f7b784a4e9ee4cf3c31e" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-20 18:17:37" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="2826803145"/>
+  <kdenlive_producer audio_max="61" meta.attr.creation_time="2012-03-20 18:07:50" id="21" meta.attr.0.stream.creation_time="2012-03-20 18:07:50" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9130.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9130.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="14585" file_hash="84082b0811313ef7416b7a030a6a1b3e" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-20 18:07:50" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="3310483925"/>
+  <kdenlive_producer audio_max="61" meta.attr.creation_time="2012-03-20 18:26:35" id="22" meta.attr.0.stream.creation_time="2012-03-20 18:26:35" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9132.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9132.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="13766" file_hash="6d97fe2de3fe86fbccae55de83d6bf88" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-20 18:26:35" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="3122610761"/>
+  <kdenlive_producer audio_max="51" meta.attr.creation_time="2012-03-20 18:45:05" id="24" meta.attr.0.stream.creation_time="2012-03-20 18:45:05" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9134.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9134.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="9802" file_hash="72a006ded014a35787b32462020d7723" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-20 18:45:05" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="2334185725"/>
+  <kdenlive_producer audio_max="42" meta.attr.creation_time="2012-03-20 18:51:42" id="25" meta.attr.0.stream.creation_time="2012-03-20 18:51:42" pix_fmt="yuvj420p" default_video="0" fps="25.000000" analysisdata="" name="MVI_9135.MOV" videocodecid="h264" meta.attr.minor_version="537331968" colorspace="601" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" meta.attr.major_brand="qt  " resource="/media/michi/data/projects/pavlik/raw/100EOS5D/MVI_9135.MOV" default_audio="1" audiocodec="PCM signed 16-bit little-endian" duration="2694" file_hash="22eca7dd57b1df7e64eef5369cf05273" aspect_ratio="1.000000" meta.attr.1.stream.language="eng" meta.attr.0.stream.language="eng" channels="2" frequency="48000" video_max="0" meta.attr.1.stream.creation_time="2012-03-20 18:51:42" progressive="1" meta.attr.compatible_brands="qt  CAEP" type="3" frame_size="1920x1080" file_size="647828401"/>
+  <markers>
+   <marker type="0" comment="this money idea that many people practice" id="1" time="286.84"/>
+   <marker type="0" comment="bis hier geschaut" id="7" time="254.32"/>
+  </markers>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
